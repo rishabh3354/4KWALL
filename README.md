@@ -1,2 +1,1 @@
-# 4KWALL
-wallpaper desktop app
+wallpaper app

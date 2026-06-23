@@ -1,0 +1,77 @@
+name: 4kwall
+base: core22
+version: '2026.6.23'
+summary: Browse, download & auto-rotate stunning 4K HD wallpapers for your desktop
+description: 4kWall is a fast, beautiful wallpaper app that brings millions of high-resolution 4K and HD wallpapers straight to your desktop
+grade: stable
+confinement: strict
+
+icon: snap/gui/icon.png
+
+architectures:
+  - build-on: [amd64]
+
+environment:
+  SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22-lite
+
+apps:
+  4kwall:
+    command: bin/desktop-launch 4kwall
+    desktop: 4kwall.desktop
+    environment:
+      DISABLE_WAYLAND: 1
+
+    plugs:
+       - home
+       - gsettings
+       - network
+       - network-bind
+       - network-status
+       - desktop
+       - desktop-legacy
+       - x11
+       - unity7
+       - wayland
+       - opengl
+       - audio-playback
+       - hardware-observe
+       - optical-drive
+       - removable-media
+
+plugs:
+  gsettings:
+  gtk-3-themes:
+    interface: content
+    target: $SNAP/data-dir/themes
+    default-provider: gtk-common-themes
+  icon-themes:
+    interface: content
+    target: $SNAP/data-dir/icons
+    default-provider: gtk-common-themes
+  sound-themes:
+    interface: content
+    target: $SNAP/data-dir/sounds
+    default-provider: gtk-common-themes
+  content-snap-core22-lite:
+    interface: content
+    target: $SNAP/content-snap-core22-lite
+    default-provider: content-snap-core22-lite
+
+parts:
+  snap-launcher:
+    plugin: dump
+    source: snap_launcher/
+    override-build: |
+      craftctl default
+      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/4kwall.desktop
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
+      cp -rf ${SNAPCRAFT_PART_SRC}/4kwall.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/4kwall.desktop
+
+  4kwall-binary:
+    plugin: dump
+    source: https://warlordsoftwares.com/static/app_builds/snap/4KWALL.tar.gz
+    source-type: tar
+    override-build: |
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
+      cp 4KWALL ${SNAPCRAFT_PART_INSTALL}/bin/4kwall
+      chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/4kwall

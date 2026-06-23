@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=4KWALL
+GenericName=Wallpaper Manager
+Comment=Discover, download and set beautiful HD and 4K wallpapers
+Icon=4kwall.png
+Exec=4kwall %F
+Terminal=false
+Categories=Graphics;Utility;Qt;
+Keywords=wallpaper;wallpapers;4k wallpaper;hd wallpaper;desktop wallpaper;backgrounds;desktop backgrounds;wallpaper manager;wallpaper changer;linux wallpaper;wallpaper downloader;automatic wallpaper changer;ultrawide wallpapers;anime wallpapers;multi monitor wallpapers;
+Name[en_US]=4KWALL
