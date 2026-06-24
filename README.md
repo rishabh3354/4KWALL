@@ -1,1 +1,3 @@
-wallpaper app
+wallpaper app/ 
+
+new features
