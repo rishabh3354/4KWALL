@@ -1,6 +1,6 @@
 name: 4kwall
 base: core22
-version: '2026.6.23'
+version: '2026.6.24'
 summary: Browse, download & auto-rotate stunning 4K HD wallpapers for your desktop
 description: 4kWall is a fast, beautiful wallpaper app that brings millions of high-resolution 4K and HD wallpapers straight to your desktop
 grade: stable
@@ -20,6 +20,7 @@ apps:
     desktop: 4kwall.desktop
     environment:
       DISABLE_WAYLAND: 1
+      APP_PLATFORM: "SNAP"
 
     plugs:
        - home
