@@ -19,7 +19,6 @@ apps:
     command: bin/desktop-launch 4kwall
     desktop: 4kwall.desktop
     environment:
-      DISABLE_WAYLAND: 1
       APP_PLATFORM: "SNAP"
 
     plugs:
