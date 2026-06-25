@@ -1,1 +1,1 @@
-wallpaper app for desktop for linux
+wallpaper app for desktop for linux and windows
