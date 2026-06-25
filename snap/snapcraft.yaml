@@ -17,6 +17,7 @@ environment:
 apps:
   4kwall:
     command: bin/desktop-launch 4kwall
+    extensions: [gnome]
     desktop: 4kwall.desktop
     environment:
       APP_PLATFORM: "SNAP"
