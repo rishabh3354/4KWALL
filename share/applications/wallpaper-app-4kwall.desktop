@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=4KWALL
+StartupWMClass=4KWALL
+Comment=4kWall for Desktop
+GenericName=Wallpaper Manager
+Exec=4kwall.sh %u
+Icon=com.warlordsoftwares.wallpaper-app-4kwall
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=wallpaper;wallpapers;4k wallpaper;hd wallpaper;desktop wallpaper;backgrounds;desktop backgrounds;wallpaper manager;wallpaper changer;linux wallpaper;wallpaper downloader;automatic wallpaper changer;ultrawide wallpapers;anime wallpapers;multi monitor wallpapers;
+Categories=Utility;Qt;

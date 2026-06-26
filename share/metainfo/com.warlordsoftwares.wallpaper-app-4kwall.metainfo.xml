@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>com.warlordsoftwares.wallpaper-app-4kwall</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/license/LICENSE</project_license>
+	<developer_name translate="no">Warlord Softwares</developer_name>
+ <branding>
+    <color type="primary" scheme_preference="light">#b3b3b3</color>
+    <color type="primary" scheme_preference="dark">#1db954</color>
+  </branding>
+	<name>4KWALL</name>
+	<summary>Set 4K, HD and live wallpapers for your desktop background</summary>
+	<description>
+	  <p>
+		4kWall is a fast wallpaper manager and changer for Linux. Browse, download,
+		and set stunning 4K, UHD, and HD wallpapers as your desktop background in a
+		single click, with thousands of high-resolution images to choose from.
+	  </p>
+	  <p>Features:</p>
+	  <ul>
+		<li>Browse and search a huge wallpaper catalogue with live filtering</li>
+		<li>One-click wallpaper setting on GNOME and Wayland</li>
+		<li>Automatic wallpaper changer with sequential and random slideshow modes</li>
+		<li>Per-monitor wallpapers for multi-monitor and dual-screen setups</li>
+		<li>Built-in viewer with zoom, rotation, and crossfade transitions</li>
+		<li>Organise backgrounds into Favorites and manage Downloads offline</li>
+		<li>Search wallpapers by colour and batch-download in parallel</li>
+		<li>Clean dark interface with system-tray support</li>
+	  </ul>
+	</description>
+	<keywords>
+  <keyword>wallpapers</keyword>
+  <keyword>background</keyword>
+  <keyword>auto wallpaper changer</keyword>
+  <keyword>desktop background</keyword>
+  <keyword>wallpaper changer</keyword>
+  <keyword>wallpaper manager</keyword>
+  <keyword>4K</keyword>
+  <keyword>HD</keyword>
+  <keyword>slideshow</keyword>
+  <keyword>wallpaper downloader</keyword>
+  <keyword>wallpaper browser</keyword>
+  <keyword>UHD</keyword>
+  <keyword>slideshow</keyword>
+  <keyword>multi-monitor</keyword>
+  <keyword>dual monitor</keyword>
+</keywords>
+<categories>
+    <category>Graphics</category>
+    <category>Utility</category>
+    <category>2DGraphics</category>
+    <category>Viewer</category>
+  </categories>
+	<screenshots>
+		<screenshot type="default">
+			<caption>4KWALL: Explore page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall.jpg</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/4KWALL/</url>
+	<url type="bugtracker">https://github.com/rishabh3354/4KWALL/issues</url>
+	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
+	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
+	<update_contact>contact@warlordsoftwares.com</update_contact>
+	<launchable type="desktop-id">com.warlordsoftwares.wallpaper-app-4kwall.desktop</launchable>
+	<content_rating type="oars-1.1" />
+	<releases>
+		<release version="2026.6.25" date="2026-6-26" />
+	</releases>
+</component>
