@@ -4,8 +4,10 @@
 > Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers.
 
 <p align="center">
-  <img src="assets/banner.png" alt="4kWall Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall_banner.png" alt="4kWall Banner" width="100%">
 </p>
+
+
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square"></a>
@@ -34,13 +36,13 @@
 
 # 📸 Screenshots
 
-| Home                             | Wallpaper Viewer                   |
+| Explore Page                             | favorites Page                   |
 | -------------------------------- | ---------------------------------- |
-| ![](assets/screenshots/home.png) | ![](assets/screenshots/viewer.png) |
+| ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png) | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png) |
 
-| Search                             | Collections                             |
+| Wallpaper Auto Rotation                             | App settings                             |
 | ---------------------------------- | --------------------------------------- |
-| ![](assets/screenshots/search.png) | ![](assets/screenshots/collections.png) |
+| ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png) | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png) |
 
 ---
 
@@ -49,7 +51,7 @@
 ## Flatpak
 
 ```bash
-flatpak install flathub com.warlordsoftwares.wallpaperhub
+flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
 ```
 
 ## Snap
@@ -77,25 +79,6 @@ Unlike traditional wallpaper applications, **4kWall** focuses on delivering a fa
 ✔ Beautiful modern interface
 
 ✔ Regular wallpaper updates
-
----
-
-# ⚠️ Snap Notes
-
-Enable access to external drives:
-
-```bash
-sudo snap connect 4kwall:removable-media
-```
-
-If the application doesn't launch after installation:
-
-```bash
-sudo snap remove 4kwall --purge
-sudo snap remove content-snap-core22-lite --purge
-sudo snap install content-snap-core22-lite
-sudo snap install 4kwall
-```
 
 ---
 
