@@ -1,90 +1,58 @@
-```markdown
-<div align="center">
-
 # 🖼️ 4kWall
 
-### Beautiful HD, 4K & 8K Wallpapers for Linux
+> **A modern wallpaper manager for Linux.**
+> Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers.
 
-Browse • Search • Download • Organize • Auto-Rotate • Set Wallpapers
+<p align="center">
+  <img src="assets/banner.png" alt="4kWall Banner" width="100%">
+</p>
 
-*Give your Linux desktop a fresh new look.*
-
----
-
-<!-- Badges -->
-![Platform](https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/4kwall?style=for-the-badge)
-![Downloads](https://img.shields.io/badge/Downloads-Flathub%20%7C%20Snap-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge)
-
-</div>
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Flathub-Available-success?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Snap-Available-success?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/github/license/YOUR_USERNAME/4kwall?style=flat-square"></a>
+</p>
 
 ---
 
 ## ✨ Features
 
-🖼️ **Browse Millions of Wallpapers**
-- Discover an enormous collection of HD, 4K and 8K wallpapers.
-
-🔍 **Powerful Search**
-- Search by keyword, colour, category, resolution and aspect ratio.
-
-⬇️ **Original Quality Downloads**
-- Download wallpapers in their highest available resolution.
-
-🎨 **One-Click Wallpaper Setting**
-- Instantly apply wallpapers to your desktop.
-
-🔄 **Automatic Wallpaper Changer**
-- Rotate wallpapers automatically at your preferred interval.
-
-🖥️ **Multi-Monitor Support**
-- Set different wallpapers for every connected monitor.
-
-❤️ **Favourite Collections**
-- Save and organize wallpapers into custom collections.
-
-🌈 **Colour Filters**
-- Find wallpapers that perfectly match your desktop theme.
-
-🚀 **System Tray Integration**
-- Quickly change wallpapers without opening the main window.
-
-🌙 **Modern Linux UI**
-- Clean, responsive and distraction-free interface.
-
-⚡ **Optimized for High Resolution Displays**
-- Perfect for HD, QHD, 4K, 5K and 8K monitors.
-
-🔄 **Regular Updates**
-- New wallpapers and features added frequently.
+* 🖼️ Browse **millions of HD, 4K & 8K wallpapers**
+* 🔍 Powerful search by **keyword, colour, category, resolution and aspect ratio**
+* ⬇️ Download wallpapers in their **original quality**
+* 🎨 Set wallpapers with **one click**
+* 🔄 Automatically rotate wallpapers at custom intervals
+* 🖥️ Use **different wallpapers on every monitor**
+* ❤️ Save wallpapers into custom collections
+* 🌈 Smart colour filtering
+* 🚀 System tray integration
+* 🌙 Beautiful native Linux interface
+* ⚡ Optimized for ultrawide, 4K and 8K displays
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-> Add screenshots here.
+| Home                             | Wallpaper Viewer                   |
+| -------------------------------- | ---------------------------------- |
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/viewer.png) |
 
-```
-
-assets/screenshots/home.png
-assets/screenshots/search.png
-assets/screenshots/viewer.png
-assets/screenshots/collections.png
-
-````
+| Search                             | Collections                             |
+| ---------------------------------- | --------------------------------------- |
+| ![](assets/screenshots/search.png) | ![](assets/screenshots/collections.png) |
 
 ---
 
-## 📥 Installation
+# 🚀 Installation
 
-### Flathub
+## Flatpak
 
 ```bash
 flatpak install flathub com.warlordsoftwares.wallpaperhub
-````
+```
 
-### Snap Store
+## Snap
 
 ```bash
 sudo snap install 4kwall
@@ -92,64 +60,59 @@ sudo snap install 4kwall
 
 ---
 
-## ⚠️ Snap Users
+# 🔥 Why 4kWall?
 
-To allow saving wallpapers to external drives:
+Unlike traditional wallpaper applications, **4kWall** focuses on delivering a fast, modern and seamless experience for Linux users.
+
+✔ Millions of wallpapers
+
+✔ Original quality downloads
+
+✔ Automatic wallpaper rotation
+
+✔ Multi-monitor support
+
+✔ Lightning-fast search
+
+✔ Beautiful modern interface
+
+✔ Regular wallpaper updates
+
+---
+
+# ⚠️ Snap Notes
+
+Enable access to external drives:
 
 ```bash
 sudo snap connect 4kwall:removable-media
 ```
 
-If the application does not launch after installation:
+If the application doesn't launch after installation:
 
 ```bash
 sudo snap remove 4kwall --purge
 sudo snap remove content-snap-core22-lite --purge
 sudo snap install content-snap-core22-lite
 sudo snap install 4kwall
-4kwall
 ```
 
 ---
 
-## ❤️ Why 4kWall?
+# ❤️ Support
 
-* Millions of wallpapers
-* HD • 4K • 8K support
-* Lightning-fast search
-* Colour-based filtering
-* Automatic wallpaper rotation
-* Different wallpaper for each monitor
-* Beautiful modern interface
-* Built specifically for Linux
+If you enjoy using **4kWall**, please consider:
 
----
+⭐ Starring this repository
 
-## 💎 Premium Features
+🐞 Reporting bugs
 
-Some advanced features require an in-app purchase.
+💡 Suggesting new features
+
+☕ Purchasing Premium to support development
 
 ---
 
-## 🤝 Contributing
+# 📄 License
 
-Bug reports, feature requests and pull requests are always welcome.
-
-If you enjoy using **4kWall**, consider giving the project a ⭐ on GitHub.
-
----
-
-## 📄 License
-
-See the LICENSE file for details.
-
----
-
-<div align="center">
-
-**Made with ❤️ for the Linux Community**
-
-⭐ Star the project if you like it!
-
-</div>
-```
+See the **LICENSE** file for more information.
