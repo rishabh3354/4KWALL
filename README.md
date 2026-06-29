@@ -17,23 +17,39 @@
 
 ---
 
-## ✨ Features
+🌟 **FEATURES:**
 
-* 🖼️ Browse **millions of HD, 4K & 8K wallpapers**
-* 🔍 Powerful search by **keyword, colour, category, resolution and aspect ratio**
-* ⬇️ Download wallpapers in their **original quality**
-* 🎨 Set wallpapers with **one click**
-* 🔄 Automatically rotate wallpapers at custom intervals
-* 🖥️ Use **different wallpapers on every monitor**
-* ❤️ Save wallpapers into custom collections
-* 🌈 Smart colour filtering
-* 🚀 System tray integration
-* 🌙 Beautiful native Linux interface
-* ⚡ Optimized for ultrawide, 4K and 8K displays
+* **Browse Millions of Wallpapers :** Explore a huge collection of stunning HD, 4K and 8K wallpapers from the internet.
+* **High-Quality Wallpaper Downloads :** Download wallpapers in their original full resolution.
+* **One-Click Wallpaper Setting :** Apply any wallpaper to your desktop instantly.
+* **Auto Wallpaper Changer :** Automatically rotate your wallpaper at your preferred interval.
+* **Different Wallpaper Per Monitor :** Set a unique wallpaper on each connected monitor.
+* **Smart Search & Colour Filters :** Find wallpapers by keyword, resolution, category, ratio and colour.
+* **Favourite Collections :** Organize your favourite wallpapers into custom collections.
+* **Supports HD, 4K & 8K Displays :** Optimized for high-resolution and ultrawide monitors.
+* **System Tray Integration :** Change wallpapers quickly without leaving your workflow.
+* **Clean, Modern Dark UI :** A polished, distraction-free interface built for your desktop.
+* **Regular Wallpaper Library Updates :** Discover fresh wallpapers added regularly.
 
 ---
 
-# 📸 Screenshots
+
+🌟 **WHAT SETS 4KWALL APART ?**
+
+
+* ✅ Millions of high-quality HD, 4K & 8K wallpapers.
+* ✅ Powerful wallpaper search with colour filtering.
+* ✅ Automatic wallpaper rotation.
+* ✅ Multi-monitor wallpaper support.
+* ✅ Auto rotation starts with login
+* ✅ Regular updates with new wallpapers and features.
+
+📥 **Download 4KWALL Today and Give Your Linux Desktop a Fresh New Look!** 🎉
+
+
+---
+
+## 📸 Screenshots
 
 | Explore Page                             | favorites Page                   |
 | -------------------------------- | ---------------------------------- |
@@ -45,16 +61,16 @@
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
-## Flatpak
+### Flatpak
 <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png"  height="56" width="186" alt="Get it from the Flathub Store" ></a>  
 
 ```bash
 flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
 ```
 
-## Snap
+### Snap
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/4kwall)  
 
 
@@ -64,40 +80,17 @@ sudo snap install 4kwall
 
 ---
 
-# 🔥 Why 4kWall?
 
-Unlike traditional wallpaper applications, **4kWall** focuses on delivering a fast, modern and seamless experience for Linux users.
+**🎯_(Keywords):_**
 
-✔ Millions of wallpapers
+* _Linux Wallpaper App,Wallpaper Manager,4K Wallpapers,_
+* _8K Wallpapers,HD Wallpapers,Desktop Wallpapers,_
+* _Wallpaper Browser,Wallpaper Downloader,Auto Wallpaper Changer,_
+* _Desktop Backgrounds,Wallpaper Collections,Wallpaper Organizer,_
+* _Multi Monitor Wallpapers,Linux Desktop Customization,GNOME Wallpapers,_
+* _KDE Plasma Wallpapers,XFCE Wallpapers,Ubuntu Wallpapers,_
+* _Linux Mint Wallpapers,Nature Wallpapers,Anime Wallpapers,Gaming Wallpapers,_
+* _Minimal Wallpapers,Abstract Wallpapers,Wallpaper Engine Alternative for Linux,_
+* _WallpaperFusion Alternative,Variety Wallpaper Alternative,Bing Wallpaper Alternative,_
+* _Unsplash Wallpaper App,Wallhaven Client_
 
-✔ Original quality downloads
-
-✔ Automatic wallpaper rotation
-
-✔ Multi-monitor support
-
-✔ Lightning-fast search
-
-✔ Beautiful modern interface
-
-✔ Regular wallpaper updates
-
----
-
-# ❤️ Support
-
-If you enjoy using **4kWall**, please consider:
-
-⭐ Starring this repository
-
-🐞 Reporting bugs
-
-💡 Suggesting new features
-
-☕ Purchasing Premium to support development
-
----
-
-# 📄 License
-
-See the **LICENSE** file for more information.
