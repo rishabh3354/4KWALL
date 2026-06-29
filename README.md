@@ -1,4 +1,4 @@
-# 🖼️ 4kWall
+# 4KWALL - Wallpaper Manager & Downloader🌈
 
 > **A modern wallpaper manager for Linux.**
 > Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers.
@@ -13,7 +13,6 @@
   <a href="#"><img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square"></a>
   <a href="#"><img src="https://img.shields.io/badge/Flathub-Available-success?style=flat-square"></a>
   <a href="#"><img src="https://img.shields.io/badge/Snap-Available-success?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/github/license/YOUR_USERNAME/4kwall?style=flat-square"></a>
 </p>
 
 ---
@@ -49,12 +48,15 @@
 # 🚀 Installation
 
 ## Flatpak
+<a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png"  height="56" width="186" alt="Get it from the Flathub Store" ></a>  
 
 ```bash
 flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
 ```
 
 ## Snap
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/4kwall)  
+
 
 ```bash
 sudo snap install 4kwall
