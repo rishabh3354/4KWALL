@@ -76,3 +76,4 @@ parts:
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
       cp 4KWALL ${SNAPCRAFT_PART_INSTALL}/bin/4kwall
       chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/4kwall
+
