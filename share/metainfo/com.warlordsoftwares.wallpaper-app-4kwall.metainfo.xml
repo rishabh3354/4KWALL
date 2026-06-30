@@ -64,12 +64,20 @@
 		<screenshot type="default">
 			<caption>4KWALL: Explore page</caption>
 			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png</image>
+		</screenshot>
+		<screenshot>
 			<caption>4KWALL: Favorite page</caption>
 			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png</image>
+		</screenshot>
+		<screenshot>
 			<caption>4KWALL: Auto rotate wallpapers</caption>
 			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png</image>
+		</screenshot>
+		<screenshot>
 			<caption>4KWALL: App settings</caption>
 			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png</image>
+		</screenshot>
+		<screenshot>
 			<caption>4KWALL: Favorite page light theme</caption>
 			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page-light.png</image>
 		</screenshot>
