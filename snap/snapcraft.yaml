@@ -1,6 +1,6 @@
 name: 4kwall
 base: core22
-version: '2026.6.25'
+version: '2026.7.7'
 summary: Discover, download, and automatically change beautiful HD and 4K wallpapers.
 description: 4kwall is a modern wallpaper app that lets you discover, download, organize, and set beautiful HD and 4K wallpapers
 grade: stable
