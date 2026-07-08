@@ -3,6 +3,7 @@
 > **A modern wallpaper manager for Linux.**
 > Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers.
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall_banner.png" alt="4kWall Banner" width="100%">
 </p>
@@ -15,6 +16,14 @@
   <a href="#"><img src="https://img.shields.io/badge/Snap-Available-success?style=flat-square"></a>
 </p>
 
+## 🚀 Installation
+
+<p align="center">
+  <a href="https://snapcraft.io/4kwall"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get it from the Snap Store"></a>&nbsp;
+  <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" alt="Get it from Flathub"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
+  <a href="https://warlordsoftwares.com/static/app_builds/windows/4KWALL.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download for Windows"></a>
+</p>
 ---
 
 🌟 **FEATURES:**
@@ -58,25 +67,6 @@
 | Wallpaper Auto Rotation                             | App settings                             |
 | ---------------------------------- | --------------------------------------- |
 | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png) | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png) |
-
----
-
-## 🚀 Installation
-
-### Flatpak
-<a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png"  height="56" width="186" alt="Get it from the Flathub Store" ></a>  
-
-```bash
-flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
-```
-
-### Snap
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/4kwall)  
-
-
-```bash
-sudo snap install 4kwall
-```
 
 ---
 
