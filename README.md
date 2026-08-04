@@ -21,7 +21,7 @@
 
 # 🚀 Installation
 
-<p align="center">
+<p>
   <a href="https://snapcraft.io/4kwall"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get it from the Snap Store"></a>&nbsp;
   <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" width="186" alt="Get it from Flathub"></a>&nbsp;
   <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
