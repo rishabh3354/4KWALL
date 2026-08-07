@@ -44,18 +44,20 @@
 <main>
 
   <h1>Privacy Policy &mdash; 4KWALL</h1>
-  <p class="updated">Last updated: 14 July 2026</p>
+  <p class="updated">Last updated: 7 August 2026</p>
 
   <p class="lede">
-    <strong>4KWALL does not collect, transmit, or sell your personal information.</strong>
-    There is no analytics, no telemetry, no advertising, and no user account.
-    Everything the app stores about you stays on your own computer.
+    <strong>4KWALL does not track you.</strong> There is no analytics, no telemetry,
+    and no advertising. We do not sell or share personal information. An account is
+    optional and is used only to unlock a paid plan. The one thing the app does send
+    us is an error report when the licence or account screen fails &mdash; described
+    in full below.
   </p>
 
   <p>
     4KWALL is a desktop wallpaper browser, downloader and auto-changer developed by
-    Warlord Softwares (&ldquo;we&rdquo;, &ldquo;us&rdquo;). This policy explains what
-    the app does and does not do with your data.
+    Warlord Softwares (&ldquo;we&rdquo;, &ldquo;us&rdquo;). This policy explains
+    exactly what the app does and does not do with your data.
   </p>
 
   <h2>Data stored on your device</h2>
@@ -69,12 +71,14 @@
         browsing faster.</li>
     <li><strong>Downloaded wallpapers</strong> &mdash; saved to a folder you choose
         (by default, your Pictures folder).</li>
-    <li><strong>License key (Pro only)</strong> &mdash; stored on your device so the
-        app can unlock Pro features.</li>
+    <li><strong>Wallhaven API key, if you add one</strong> &mdash; optional, and kept
+        on your device only. It is sent to Wallhaven with your requests, never to us.</li>
+    <li><strong>Account token (paid plans only)</strong> &mdash; if you sign in, a
+        login token is stored on your device so you do not have to sign in again.</li>
   </ul>
   <p>
-    None of this is uploaded to us. You can remove all of it by uninstalling the app
-    and deleting its data folder.
+    None of this is uploaded to us. Uninstalling the app and deleting its data folder
+    removes all of it.
   </p>
 
   <h2>Network connections</h2>
@@ -82,28 +86,76 @@
   <ul>
     <li>
       <strong>Wallhaven (<code>wallhaven.cc</code>)</strong> &mdash; to search for,
-      preview and download wallpapers. Wallhaven receives your IP address and standard
-      HTTP request information, exactly as it would if you visited their website. That
-      data is handled under
-      <a href="https://wallhaven.cc/privacy" rel="noopener">Wallhaven&rsquo;s privacy policy</a>.
+      preview and download wallpapers. Wallhaven receives your IP address, your search
+      terms and standard HTTP request information, exactly as it would if you visited
+      their website. That data is handled under
+      <a href="https://wallhaven.cc/privacy" rel="noopener">Wallhaven&rsquo;s privacy
+      policy</a>. We are not involved in and do not see that traffic.
     </li>
     <li>
-      <strong>License validation (Pro only)</strong> &mdash;
-      <!-- CONFIRM: describe accurately, or delete this bullet if licensing is fully offline. -->
-      [CONFIRM: state exactly what is sent to your server and what is stored.]
+      <strong>Update check</strong> &mdash; the app asks
+      <code>warlordsoftwares.com</code> whether a newer version exists. Only the
+      product name is sent. No identifier, and nothing about you or your wallpapers.
+      (In the Microsoft Store build this is disabled entirely; the Store handles
+      updates.)
+    </li>
+    <li>
+      <strong>Sign-in and plan check (paid plans only)</strong> &mdash; if you choose
+      to sign in, your email address and password are sent to
+      <code>warlordsoftwares.com</code> over HTTPS to authenticate you, and the app
+      then asks which plan your account holds. If you never sign in, the app never
+      contacts us for this.
+    </li>
+    <li>
+      <strong>Error reports from the account screen</strong> &mdash; see the next
+      section.
     </li>
   </ul>
   <p>
-    The app sends us no usage data, crash reports, device identifiers, or personal
-    information.
+    The app sends us no analytics, no advertising identifiers, and no record of which
+    wallpapers you browse, favorite, download or set.
+  </p>
+
+  <h2>Error reports</h2>
+  <p>
+    If something goes wrong while the app is signing you in, checking your plan, or
+    restoring a licence, it sends us an automatic error report so we can fix it.
+    This happens only in that part of the app &mdash; nowhere else, and never during
+    normal browsing or downloading.
+  </p>
+  <p>The report contains:</p>
+  <ul>
+    <li>the product name and app version, and which operation failed;</li>
+    <li>the technical error detail (a stack trace), which in the account screen can
+        include the contents of that screen&rsquo;s internal state;</li>
+    <li>your operating system version;</li>
+    <li>your account id and plan name, if you are signed in.</li>
+  </ul>
+  <p>
+    These reports are used only to diagnose faults. They are not used for profiling,
+    advertising or analytics, and are not shared with third parties. They do not
+    include your password, your Wallhaven API key, your files, or your browsing
+    history. If you would like reports associated with your account removed, email us
+    at the address below.
+  </p>
+
+  <h2>Account information</h2>
+  <p>
+    An account is required only for a paid plan. We store the email address you
+    register with and your plan status, so that the app can verify your licence. We
+    do not use your email for marketing unless you ask us to, and we do not share it
+    with third parties. To have your account and its data deleted, email us at the
+    address below.
   </p>
 
   <h2>Purchases</h2>
   <p>
-    <!-- CONFIRM: name your real payment provider. -->
-    Purchases of 4KWALL Pro are processed by [PAYMENT PROVIDER]. We do not receive,
-    see, or store your payment card details. Information you provide at checkout is
-    handled by that provider under their own privacy policy.
+    Paid plans are purchased on our website, not inside the app &mdash; the app simply
+    opens
+    <a href="https://warlordsoftwares.com/apps/plans-and-pricing/" rel="noopener">our
+    pricing page</a> in your browser. Payment is handled there by our payment provider
+    under its own privacy policy. The app itself never sees, handles, or stores your
+    card or payment details.
   </p>
 
   <h2>Third-party content</h2>
@@ -123,7 +175,7 @@
   <p>
     On Windows, 4KWALL runs with standard user permissions so that it can set your
     desktop wallpaper and save downloaded images to a folder you choose. It does not
-    request access to your contacts, camera, microphone, location, or documents.
+    request access to your contacts, camera, microphone, or location.
   </p>
 
   <h2>Changes</h2>
@@ -136,9 +188,12 @@
 
   <footer>
     <p>
-      Questions about privacy:
+      Questions about privacy, or to request deletion of your account:
       <a href="mailto:contact@warlordsoftwares.com">contact@warlordsoftwares.com</a><br>
-      Issues: <a href="https://github.com/rishabh3354/4KWALL/issues" rel="noopener">github.com/rishabh3354/4KWALL/issues</a>
+      Warlord Softwares &middot;
+      <a href="https://warlordsoftwares.com/" rel="noopener">warlordsoftwares.com</a>
+      &middot;
+      <a href="https://github.com/rishabh3354/4KWALL/issues" rel="noopener">Report an issue</a>
     </p>
   </footer>
 

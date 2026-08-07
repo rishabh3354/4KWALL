@@ -1,107 +1,122 @@
-# Privacy Policy for 4KWALL
+# Privacy Policy — 4KWALL
 
-**Last updated: 14 July 2026**
+*Last updated: 7 August 2026*
 
-4KWALL ("the app") is a desktop wallpaper browser, downloader and auto-changer
-developed by Warlord Softwares ("we", "us"). This policy explains what the app
-does and does not do with your data.
+**4KWALL does not track you.** There is no analytics, no telemetry, and no
+advertising. We do not sell or share personal information. An account is
+optional and is used only to unlock a paid plan. The one thing the app does send
+us is an error report when the licence or account screen fails — described in
+full below.
 
----
-
-## Summary
-
-4KWALL does not collect, transmit, or sell your personal information. There is
-no analytics SDK, no telemetry, no advertising, and no user account. Everything
-the app stores about you stays on your own computer.
-
----
+4KWALL is a desktop wallpaper browser, downloader and auto-changer developed by
+Warlord Softwares ("we", "us"). This policy explains exactly what the app does
+and does not do with your data.
 
 ## Data stored on your device
 
 The app stores the following locally, and only locally:
 
 - **Settings and preferences** — theme, wallpaper-change interval, monitor
-  configuration, download folder, and similar options.
-- **Favorites and browsing history** — the wallpapers you mark as favorites and
-  the ones you have viewed, stored in a local database.
-- **Cached thumbnails** — temporary image files used to make browsing faster.
+  configuration, download folder.
+- **Favorites and history** — the wallpapers you favorite and view, kept in a
+  local database.
+- **Cached thumbnails** — temporary images that make browsing faster.
 - **Downloaded wallpapers** — saved to a folder you choose (by default, your
   Pictures folder).
-- **License key** *(Pro only)* — if you purchase 4KWALL Pro, your license key is
-  stored on your device so the app can unlock Pro features.
+- **Wallhaven API key, if you add one** — optional, and kept on your device
+  only. It is sent to Wallhaven with your requests, never to us.
+- **Account token (paid plans only)** — if you sign in, a login token is stored
+  on your device so you do not have to sign in again.
 
-This data is never uploaded to us. You can remove all of it by uninstalling the
-app and deleting its data folder.
-
----
+None of this is uploaded to us. Uninstalling the app and deleting its data
+folder removes all of it.
 
 ## Network connections
 
-4KWALL connects to the internet for these purposes only:
+4KWALL connects to the internet only for these purposes:
 
-1. **Wallhaven API and image servers (`wallhaven.cc`)** — to search for, preview,
-   and download wallpapers. When your app makes these requests, Wallhaven
-   receives your IP address and standard HTTP request information, as with any
-   website you visit. This data is handled by Wallhaven under their own privacy
-   policy: https://wallhaven.cc/privacy
-2. **License validation** *(Pro only)* — [CONFIRM: describe this accurately. If a
-   license key is checked against your own server, say so, and state exactly what
-   is sent — e.g. "the license key and a device identifier are sent to our server
-   to verify the license is valid. We do not store your IP address or link the
-   key to any personal information." If licensing is entirely offline/local,
-   delete this whole item.]
-3. **Update checks** — [CONFIRM: if the app checks a URL for a new version, say
-   so and note that only a version number is requested and no identifying data is
-   sent. If the app does not check for updates — which is the case for the
-   Microsoft Store build, since Windows handles updates — delete this item.]
+1. **Wallhaven (`wallhaven.cc`)** — to search for, preview and download
+   wallpapers. Wallhaven receives your IP address, your search terms and
+   standard HTTP request information, exactly as it would if you visited their
+   website. That data is handled under
+   [Wallhaven's privacy policy](https://wallhaven.cc/privacy). We are not
+   involved in and do not see that traffic.
+2. **Update check** — the app asks `warlordsoftwares.com` whether a newer
+   version exists. Only the product name is sent. No identifier, and nothing
+   about you or your wallpapers. (In the Microsoft Store build this is disabled
+   entirely; the Store handles updates.)
+3. **Sign-in and plan check (paid plans only)** — if you choose to sign in, your
+   email address and password are sent to `warlordsoftwares.com` over HTTPS to
+   authenticate you, and the app then asks which plan your account holds. If you
+   never sign in, the app never contacts us for this.
+4. **Error reports from the account screen** — see the next section.
 
-The app does not send us any usage data, crash reports, device identifiers, or
-personal information.
+The app sends us no analytics, no advertising identifiers, and no record of
+which wallpapers you browse, favorite, download or set.
 
----
+## Error reports
+
+If something goes wrong while the app is signing you in, checking your plan, or
+restoring a licence, it sends us an automatic error report so we can fix it.
+This happens only in that part of the app — nowhere else, and never during
+normal browsing or downloading.
+
+The report contains:
+
+- the product name and app version, and which operation failed;
+- the technical error detail (a stack trace), which in the account screen can
+  include the contents of that screen's internal state;
+- your operating system version;
+- your account id and plan name, if you are signed in.
+
+These reports are used only to diagnose faults. They are not used for profiling,
+advertising or analytics, and are not shared with third parties. They do not
+include your password, your Wallhaven API key, your files, or your browsing
+history. If you would like reports associated with your account removed, email
+us at the address below.
+
+## Account information
+
+An account is required only for a paid plan. We store the email address you
+register with and your plan status, so that the app can verify your licence. We
+do not use your email for marketing unless you ask us to, and we do not share it
+with third parties. To have your account and its data deleted, email us at the
+address below.
 
 ## Purchases
 
-[CONFIRM: name your actual payment provider.] Purchases of 4KWALL Pro are
-processed by [PAYMENT PROVIDER, e.g. Microsoft Store / Gumroad / Paddle]. We do
-not receive, see, or store your payment card details. Any information you provide
-during checkout is handled by that provider under their own privacy policy.
+Paid plans are purchased on our website, not inside the app — the app simply
+opens [our pricing page](https://warlordsoftwares.com/apps/plans-and-pricing/)
+in your browser. Payment is handled there by our payment provider under its own
+privacy policy. The app itself never sees, handles, or stores your card or
+payment details.
 
----
+## Third-party content
 
-## Content ratings and third-party content
-
-Wallpapers shown in the app are supplied by Wallhaven, not by us. 4KWALL requests
-only content marked as suitable for general audiences. We do not control, host,
+Wallpapers shown in the app are supplied by Wallhaven, not by us. 4KWALL
+requests only content marked as suitable for general audiences. We do not host
 or moderate that content.
-
----
 
 ## Children
 
-4KWALL is not directed at children under 13 and we do not knowingly collect any
+4KWALL is not directed at children under 13, and we do not knowingly collect any
 information from them.
-
----
 
 ## Permissions
 
-On Windows, 4KWALL runs with standard user permissions in order to set your
-desktop wallpaper and write downloaded images to a folder you choose. It does not
-request access to your contacts, camera, microphone, location, or documents.
+On Windows, 4KWALL runs with standard user permissions so that it can set your
+desktop wallpaper and save downloaded images to a folder you choose. It does not
+request access to your contacts, camera, microphone, or location.
 
----
-
-## Changes to this policy
+## Changes
 
 If this policy changes, the updated version will be published at this URL with a
 new "Last updated" date.
 
 ---
 
-## Contact
+Questions about privacy, or to request deletion of your account:
+[contact@warlordsoftwares.com](mailto:contact@warlordsoftwares.com)
 
-Questions about privacy or this policy:
-
-- Email: [YOUR SUPPORT EMAIL]
-- Issues: https://github.com/rishabh3354/4KWALL/issues
+Warlord Softwares · [warlordsoftwares.com](https://warlordsoftwares.com/) ·
+[Report an issue](https://github.com/rishabh3354/4KWALL/issues)
