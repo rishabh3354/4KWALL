@@ -90,7 +90,7 @@
 	<launchable type="desktop-id">com.warlordsoftwares.wallpaper-app-4kwall.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<releases>
-		<release version="2026.8.4" date="2026-08-04">
+		<release version="2026.8.8" date="2026-08-08">
 			<description>
 				<p>1. Explore page is much faster and smoother: scrolling no longer jumps, flickers or stutters.</p>
 				<p>2. Wallpaper feeds are now cached, so Trending, Latest and Viral open instantly instead of reloading every time.</p>
