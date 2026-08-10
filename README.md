@@ -195,6 +195,7 @@ No. 4KWALL is a proprietary desktop application. This repository hosts the relea
 
 ## 🔗 Links
 
+- 📄 **Download page:** [rishabh3354.github.io/4KWALL](https://rishabh3354.github.io/4KWALL/)
 - 🌐 **Website:** [warlordsoftwares.com](https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/)
 - 📦 **Flathub:** [com.warlordsoftwares.wallpaper-app-4kwall](https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall)
 - 📦 **Snap Store:** [snapcraft.io/4kwall](https://snapcraft.io/4kwall)
