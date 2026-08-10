@@ -1,83 +1,215 @@
-# 4KWALL - Wallpaper Manager & Downloader 🌈
+# 4KWALL — Wallpaper Manager & Auto Wallpaper Changer for Linux and Windows
 
-> **A modern wallpaper manager for Linux and Windows.**  
-> Browse, search, download, organize and automatically rotate millions of beautiful HD, 4K & 8K wallpapers.
+**4KWALL is a desktop wallpaper app for Linux and Windows.** Browse and search millions of HD, 4K and 8K wallpapers, set them with one click, rotate them automatically on a timer, and run a different wallpaper on every monitor — all from a native app instead of a browser full of download traps.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall_banner.png" alt="4KWALL Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall_banner.png" alt="4KWALL wallpaper manager and auto wallpaper changer for Linux and Windows — HD, 4K and 8K wallpapers" width="100%">
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=flat-square&logo=windows&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Flathub-Available-success?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Snap-Available-success?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/AppImage-Available-00B4F0?style=flat-square&logo=appimage&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/WinGet-Available-2C7BE5?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Microsoft%20Store-Available-107C10?style=flat-square&logo=microsoft"></a>
+  <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://img.shields.io/flathub/downloads/com.warlordsoftwares.wallpaper-app-4kwall?style=for-the-badge&label=Flathub%20installs&color=4A90D9" alt="Flathub installs"></a>
+  <a href="https://snapcraft.io/4kwall"><img src="https://img.shields.io/snapcraft/v/4kwall/latest/stable?style=for-the-badge&label=Snap&color=E95420" alt="Snap Store version"></a>
+  <a href="https://github.com/rishabh3354/4KWALL/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/4KWALL?style=for-the-badge&label=Release&color=2ea44f" alt="Latest release"></a>
+  <a href="https://github.com/rishabh3354/4KWALL/stargazers"><img src="https://img.shields.io/github/stars/rishabh3354/4KWALL?style=for-the-badge&color=f5c518" alt="GitHub stars"></a>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%20%7C%20Debian%20%7C%20Fedora%20%7C%20Arch-blue?style=flat-square&logo=linux&logoColor=white" alt="Runs on Ubuntu, Debian, Fedora and Arch Linux">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Runs on Windows 10 and Windows 11">
+  <img src="https://img.shields.io/badge/Microsoft%20Store-Available-107C10?style=flat-square&logo=microsoft&logoColor=white" alt="Available on the Microsoft Store">
+  <img src="https://img.shields.io/badge/WinGet-Available-2C7BE5?style=flat-square" alt="Installable with WinGet">
+  <img src="https://img.shields.io/badge/Resolution-up%20to%208K-red?style=flat-square" alt="Supports HD, 4K and 8K wallpapers">
+</p>
+
+> ⭐ **New and growing fast.** If 4KWALL made your desktop look better, [star the repo](https://github.com/rishabh3354/4KWALL/stargazers) — it is the main way people find it.
 
 ---
 
-# 🚀 Installation
+## Contents
 
-<p>
-  <a href="https://snapcraft.io/4kwall"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Get it from the Snap Store"></a>&nbsp;
-  <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" width="186" alt="Get it from Flathub"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Get AppImage"></a>&nbsp;
-  <a href="https://apps.microsoft.com/detail/9N305D02HC8C"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="220" height="56" alt="Get it from Microsoft Store"></a>
-  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download for Windows"></a>
+- [Download and install](#-download-and-install)
+- [Features](#-features)
+- [What you can do](#-what-you-can-do)
+- [Screenshots](#-screenshots)
+- [Desktop environment support](#-desktop-environment-support)
+- [System requirements](#-system-requirements)
+- [FAQ](#-faq)
+- [How 4KWALL compares](#-how-4kwall-compares-to-other-wallpaper-apps)
+- [More apps](#-more-apps-by-warlord-softwares)
+
+---
+
+## 📥 Download and install
+
+<p align="center">
+  <a href="https://snapcraft.io/4kwall"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Install the 4KWALL wallpaper app from the Snap Store"></a>&nbsp;
+  <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" width="186" alt="Install the 4KWALL wallpaper app from Flathub"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the 4KWALL AppImage for Linux"></a>&nbsp;
+  <a href="https://apps.microsoft.com/detail/9N305D02HC8C"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="220" height="56" alt="Get 4KWALL from the Microsoft Store"></a>&nbsp;
+  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download 4KWALL for Windows 10 and Windows 11"></a>
 </p>
 
+### Install on Linux (terminal)
 
-### Also available on WinGet:
+```bash
+sudo snap install 4kwall
+```
+
+```bash
+flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
+```
+
+### Install on Linux (AppImage — works on any distro)
+
+```bash
+wget https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage
+chmod +x 4kWall-x86_64.AppImage
+./4kWall-x86_64.AppImage
+```
+
+### Install on Windows (WinGet)
 
 ```powershell
 winget install WarlordSoftwares.4kwall
 ```
 
+Or get it from the **[Microsoft Store](https://apps.microsoft.com/detail/9N305D02HC8C)**, or download **[4kWall.exe](https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall.exe)** from the [latest release](https://github.com/rishabh3354/4KWALL/releases/latest).
+
+---
 
 ## 🌟 Features
 
-- **Browse Millions of Wallpapers** – Explore a huge collection of stunning HD, 4K and 8K wallpapers.
-- **High-Quality Wallpaper Downloads** – Download wallpapers in their original full resolution.
-- **One-Click Wallpaper Setting** – Apply any wallpaper to your desktop instantly.
-- **Auto Wallpaper Changer** – Automatically rotate wallpapers at your preferred interval.
-- **Different Wallpaper Per Monitor** – Set a unique wallpaper on each connected monitor.
-- **Smart Search & Colour Filters** – Search by keyword, resolution, category, aspect ratio and colour.
-- **Favourite Collections** – Organize wallpapers into custom collections.
-- **Supports HD, 4K & 8K Displays** – Optimized for high-resolution and ultrawide monitors.
-- **System Tray Integration** – Change wallpapers without interrupting your workflow.
-- **Modern Dark Interface** – Clean, polished and distraction-free.
-- **Regular Wallpaper Updates** – Fresh wallpapers added regularly.
+- **Millions of wallpapers, searchable** — browse a huge curated library of HD, 4K and 8K images without leaving the app.
+- **Full-resolution downloads** — get the original file, not a resized thumbnail.
+- **One-click set as wallpaper** — apply any image to your desktop instantly.
+- **Auto wallpaper changer** — rotate wallpapers on a timer (every hour, every day, or your own interval), starting automatically at login.
+- **Different wallpaper per monitor** — give each display in a multi-monitor setup its own image.
+- **Smart search and colour filters** — filter by keyword, category, resolution, aspect ratio and dominant colour.
+- **Favourite collections** — save and organise wallpapers into your own collections.
+- **Ultrawide and high-DPI ready** — built for 21:9, 32:9, 1440p, 4K and 8K displays.
+- **System tray integration** — change wallpapers without breaking your workflow.
+- **Modern dark interface** — clean and distraction-free, with a light theme too.
+- **No ads, no trackers.**
 
 ---
 
-## 🌟 What Sets 4KWALL Apart?
+## 🎯 What you can do
 
-- ✅ Millions of HD, 4K & 8K wallpapers.
-- ✅ Powerful search with colour filtering.
-- ✅ Automatic wallpaper rotation.
-- ✅ Multi-monitor wallpaper support.
-- ✅ Auto rotation starts on login.
-- ✅ Frequent updates with new wallpapers and features.
-
-📥 **Download 4KWALL today and give your desktop a fresh new look!**
-
----
-
-# 📸 Screenshots
-
-| Explore | Favorites |
-|---------|-----------|
-| ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png) | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png) |
-
-| Auto Wallpaper Rotation | Settings |
-|--------------------------|----------|
-| ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png) | ![](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png) |
+| Task | How 4KWALL handles it |
+|---|---|
+| **Find a 4K wallpaper** | Filter the library by resolution and aspect ratio |
+| **Change wallpaper automatically** | Set a rotation interval and a source collection |
+| **Set a different wallpaper per monitor** | Assign images per display in a multi-monitor setup |
+| **Find wallpapers by colour** | Filter by dominant colour to match your theme |
+| **Build a wallpaper collection** | Favourite images and group them into collections |
+| **Get an ultrawide wallpaper** | Filter by 21:9 or 32:9 aspect ratio |
+| **Match your desktop theme** | Search by category — nature, minimal, abstract, anime, gaming, space, cars |
+| **Download wallpapers in bulk** | Queue a collection and save it locally |
 
 ---
 
-<sub><sup>
-Keywords: Linux Wallpaper App, Windows Wallpaper App, Wallpaper Manager, Wallpaper Downloader, HD Wallpapers, 4K Wallpapers, 8K Wallpapers, Desktop Wallpapers, Wallpaper Browser, Wallpaper Collections, Wallpaper Organizer, Multi Monitor Wallpapers, Auto Wallpaper Changer, Linux Desktop Customization, Ubuntu Wallpapers, Fedora Wallpapers, Arch Linux Wallpapers, KDE Plasma Wallpapers, GNOME Wallpapers, XFCE Wallpapers, Windows 11 Wallpapers, Nature Wallpapers, Anime Wallpapers, Gaming Wallpapers, Abstract Wallpapers, Minimal Wallpapers, Wallpaper Engine Alternative, Variety Alternative, WallpaperFusion Alternative, Bing Wallpaper Alternative, Unsplash Wallpaper App, Wallhaven Client, WinGet, Microsoft Store
-</sup></sub>
+## 📸 Screenshots
+
+| Explore | Favourites |
+|---|---|
+| ![4KWALL explore page browsing HD, 4K and 8K wallpapers](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png) | ![4KWALL favourites page with saved wallpaper collections](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png) |
+
+| Auto wallpaper rotation | Settings |
+|---|---|
+| ![4KWALL auto wallpaper changer settings with rotation interval](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png) | ![4KWALL application settings and multi-monitor preferences](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png) |
+
+---
+
+## 🖥️ Desktop environment support
+
+4KWALL sets wallpapers on the major Linux desktops — **GNOME**, **KDE Plasma**, **XFCE**, **Cinnamon**, **MATE**, **Budgie** and **LXQt** — as well as **Windows 10 and 11**.
+
+---
+
+## 💻 System requirements
+
+| | Minimum |
+|---|---|
+| **Linux** | Ubuntu 20.04+, Debian 11+, Fedora 36+, Arch, or any distro that runs Flatpak / Snap / AppImage |
+| **Windows** | Windows 10 or Windows 11, 64-bit |
+| **Architecture** | x86_64 |
+| **RAM** | 4 GB |
+| **Network** | Required for browsing and downloading wallpapers |
+
+---
+
+## ❓ FAQ
+
+### Is 4KWALL free?
+
+4KWALL is free to download and use. A one-time Pro upgrade unlocks the full feature set — there is no subscription. See [plans and pricing](https://warlordsoftwares.com/apps/plans-and-pricing/).
+
+### Does 4KWALL work on GNOME and KDE Plasma?
+
+Yes. It sets wallpapers on GNOME, KDE Plasma, XFCE, Cinnamon, MATE, Budgie and LXQt, plus Windows 10 and 11.
+
+### Can it change my wallpaper automatically?
+
+Yes. Pick a collection and an interval and 4KWALL rotates your wallpaper on schedule, resuming automatically after you log in.
+
+### Does it support multiple monitors?
+
+Yes — you can set a different wallpaper on each connected display, including mixed-resolution and ultrawide setups.
+
+### Are the wallpapers full resolution?
+
+Yes. Downloads are the original full-resolution files, up to 8K.
+
+### Does it work on ultrawide monitors?
+
+Yes. Filter by 21:9 or 32:9 aspect ratio to find wallpapers that fit without stretching or cropping.
+
+### Is 4KWALL a Wallpaper Engine alternative?
+
+Partly. Wallpaper Engine specialises in animated and interactive wallpapers; 4KWALL focuses on high-resolution still wallpapers with search, collections, auto-rotation and multi-monitor support — and it runs natively on Linux.
+
+### Is 4KWALL open source?
+
+No. 4KWALL is a proprietary desktop application. This repository hosts the releases, packaging metadata, issue tracker and documentation rather than the application source.
+
+---
+
+## ⚖️ How 4KWALL compares to other wallpaper apps
+
+- **Wallpaper sites in a browser** (Wallhaven, Unsplash, Pexels) — great libraries, but you are stuck downloading, saving and setting each image by hand. 4KWALL does all three in one click and adds rotation.
+- **Variety (Linux)** — free and scriptable, but dated and awkward to browse. 4KWALL gives you a modern searchable gallery with colour filters and per-monitor control.
+- **Bing Wallpaper / Windows Spotlight** — one image a day, no choice. 4KWALL lets you pick the source and the schedule.
+- **Wallpaper Engine** — the leader for animated wallpapers, Windows-only and Steam-bound. 4KWALL is the still-image counterpart that also runs on Linux.
+
+---
+
+## 🧩 More apps by Warlord Softwares
+
+| App | What it does |
+|---|---|
+| **[4KTUBE](https://github.com/rishabh3354/4KTUBE)** | Download YouTube videos and playlists in 4K / 8K |
+| **[FormatLab](https://github.com/rishabh3354/FORMAT_LAB)** | Convert and compress video and audio between 40+ formats |
+| **[DL-YouTube / Media Downloader](https://github.com/rishabh3354/YOUTUBE-DL-PRO)** | Download video and audio from 1400+ websites |
+
+---
+
+## 🔗 Links
+
+- 🌐 **Website:** [warlordsoftwares.com](https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/)
+- 📦 **Flathub:** [com.warlordsoftwares.wallpaper-app-4kwall](https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall)
+- 📦 **Snap Store:** [snapcraft.io/4kwall](https://snapcraft.io/4kwall)
+- 🪟 **Microsoft Store:** [apps.microsoft.com/detail/9N305D02HC8C](https://apps.microsoft.com/detail/9N305D02HC8C)
+- 🐞 **Issues:** [github.com/rishabh3354/4KWALL/issues](https://github.com/rishabh3354/4KWALL/issues)
+- 🔒 **Privacy policy:** [privacy.html](https://rishabh3354.github.io/4KWALL/privacy.html)
+
+---
+
+## 📄 License
+
+4KWALL is proprietary software. © 2024–2026 Rishabh Bhardwaj / Warlord Softwares. See [LICENSE](LICENSE).
+
+---
+
+<p align="center">
+  <strong>Found this useful? ⭐ Star the repo — it genuinely helps other people find it.</strong>
+</p>
