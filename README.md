@@ -21,7 +21,6 @@
   <img src="https://img.shields.io/badge/Resolution-up%20to%208K-red?style=flat-square" alt="Supports HD, 4K and 8K wallpapers">
 </p>
 
-> ⭐ **New and growing fast.** If 4KWALL made your desktop look better, [star the repo](https://github.com/rishabh3354/4KWALL/stargazers) — it is the main way people find it.
 
 ---
 
@@ -185,11 +184,7 @@ No. 4KWALL is a proprietary desktop application. This repository hosts the relea
 
 ## 🧩 More apps by Warlord Softwares
 
-| App | What it does |
-|---|---|
-| **[4KTUBE](https://github.com/rishabh3354/4KTUBE)** | Download YouTube videos and playlists in 4K / 8K |
-| **[FormatLab](https://github.com/rishabh3354/FORMAT_LAB)** | Convert and compress video and audio between 40+ formats |
-| **[DL-YouTube / Media Downloader](https://github.com/rishabh3354/YOUTUBE-DL-PRO)** | Download video and audio from 1400+ websites |
+Other apps by Warlord Softwares are listed on [warlordsoftwares.com](https://warlordsoftwares.com/).
 
 ---
 
@@ -208,9 +203,3 @@ No. 4KWALL is a proprietary desktop application. This repository hosts the relea
 ## 📄 License
 
 4KWALL is proprietary software. © 2024–2026 Rishabh Bhardwaj / Warlord Softwares. See [LICENSE](LICENSE).
-
----
-
-<p align="center">
-  <strong>Found this useful? ⭐ Star the repo — it genuinely helps other people find it.</strong>
-</p>
