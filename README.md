@@ -3,14 +3,13 @@
 **4KWALL is a desktop wallpaper app for Linux and Windows.** Browse and search millions of HD, 4K and 8K wallpapers, set them with one click, rotate them automatically on a timer, and run a different wallpaper on every monitor — all from a native app instead of a browser full of download traps.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/4kwall_banner.png" alt="4KWALL wallpaper manager and auto wallpaper changer for Linux and Windows — HD, 4K and 8K wallpapers" width="100%">
+  <img src="share/screenshots/4kwall_banner.png" alt="4KWALL wallpaper manager and auto wallpaper changer for Linux and Windows — HD, 4K and 8K wallpapers" width="100%">
 </p>
 
 <p align="center">
   <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://img.shields.io/flathub/downloads/com.warlordsoftwares.wallpaper-app-4kwall?style=for-the-badge&label=Flathub%20installs&color=4A90D9" alt="Flathub installs"></a>
   <a href="https://snapcraft.io/4kwall"><img src="https://img.shields.io/snapcraft/v/4kwall/latest/stable?style=for-the-badge&label=Snap&color=E95420" alt="Snap Store version"></a>
-  <a href="https://github.com/rishabh3354/4KWALL/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/4KWALL?style=for-the-badge&label=Release&color=2ea44f" alt="Latest release"></a>
-  <a href="https://github.com/rishabh3354/4KWALL/stargazers"><img src="https://img.shields.io/github/stars/rishabh3354/4KWALL?style=for-the-badge&color=f5c518" alt="GitHub stars"></a>
+  <a href="https://gitlab.com/warlordsoftwares/4kwall/-/releases"><img src="https://img.shields.io/gitlab/v/tag/warlordsoftwares%2F4kwall?style=for-the-badge&label=Release&color=2ea44f" alt="Latest release"></a>
 </p>
 
 <p align="center">
@@ -43,9 +42,9 @@
 <p align="center">
   <a href="https://snapcraft.io/4kwall"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Install the 4KWALL wallpaper app from the Snap Store"></a>&nbsp;
   <a href="https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" width="186" alt="Install the 4KWALL wallpaper app from Flathub"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the 4KWALL AppImage for Linux"></a>&nbsp;
+  <a href="https://gitlab.com/warlordsoftwares/4kwall/-/releases"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the 4KWALL AppImage for Linux"></a>&nbsp;
   <a href="https://apps.microsoft.com/detail/9N305D02HC8C"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="220" height="56" alt="Get 4KWALL from the Microsoft Store"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download 4KWALL for Windows 10 and Windows 11"></a>
+  <a href="https://gitlab.com/warlordsoftwares/4kwall/-/releases"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download 4KWALL for Windows 10 and Windows 11"></a>
 </p>
 
 ### Install on Linux (terminal)
@@ -60,8 +59,9 @@ flatpak install flathub com.warlordsoftwares.wallpaper-app-4kwall
 
 ### Install on Linux (AppImage — works on any distro)
 
+Download the latest `.AppImage` from the [releases page](https://gitlab.com/warlordsoftwares/4kwall/-/releases), then:
+
 ```bash
-wget https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall-x86_64.AppImage
 chmod +x 4kWall-x86_64.AppImage
 ./4kWall-x86_64.AppImage
 ```
@@ -72,7 +72,7 @@ chmod +x 4kWall-x86_64.AppImage
 winget install WarlordSoftwares.4kwall
 ```
 
-Or get it from the **[Microsoft Store](https://apps.microsoft.com/detail/9N305D02HC8C)**, or download **[4kWall.exe](https://github.com/rishabh3354/4KWALL/releases/latest/download/4kWall.exe)** from the [latest release](https://github.com/rishabh3354/4KWALL/releases/latest).
+Or get it from the **[Microsoft Store](https://apps.microsoft.com/detail/9N305D02HC8C)**, or download **[4kWall.exe](https://gitlab.com/warlordsoftwares/4kwall/-/releases)** from the [latest release](https://gitlab.com/warlordsoftwares/4kwall/-/releases).
 
 ---
 
@@ -111,11 +111,11 @@ Or get it from the **[Microsoft Store](https://apps.microsoft.com/detail/9N305D0
 
 | Explore | Favourites |
 |---|---|
-| ![4KWALL explore page browsing HD, 4K and 8K wallpapers](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png) | ![4KWALL favourites page with saved wallpaper collections](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png) |
+| ![4KWALL explore page browsing HD, 4K and 8K wallpapers](share/screenshots/explore-page.png) | ![4KWALL favourites page with saved wallpaper collections](share/screenshots/favorite-page.png) |
 
 | Auto wallpaper rotation | Settings |
 |---|---|
-| ![4KWALL auto wallpaper changer settings with rotation interval](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png) | ![4KWALL application settings and multi-monitor preferences](https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png) |
+| ![4KWALL auto wallpaper changer settings with rotation interval](share/screenshots/wallpaper-auto-rotation.png) | ![4KWALL application settings and multi-monitor preferences](share/screenshots/settings-4kwall.png) |
 
 ---
 
@@ -190,13 +190,12 @@ Other apps by Warlord Softwares are listed on [warlordsoftwares.com](https://war
 
 ## 🔗 Links
 
-- 📄 **Download page:** [rishabh3354.github.io/4KWALL](https://rishabh3354.github.io/4KWALL/)
 - 🌐 **Website:** [warlordsoftwares.com](https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/)
 - 📦 **Flathub:** [com.warlordsoftwares.wallpaper-app-4kwall](https://flathub.org/apps/details/com.warlordsoftwares.wallpaper-app-4kwall)
 - 📦 **Snap Store:** [snapcraft.io/4kwall](https://snapcraft.io/4kwall)
 - 🪟 **Microsoft Store:** [apps.microsoft.com/detail/9N305D02HC8C](https://apps.microsoft.com/detail/9N305D02HC8C)
-- 🐞 **Issues:** [github.com/rishabh3354/4KWALL/issues](https://github.com/rishabh3354/4KWALL/issues)
-- 🔒 **Privacy policy:** [privacy.html](https://rishabh3354.github.io/4KWALL/privacy.html)
+- 🐞 **Issues:** [gitlab.com/warlordsoftwares/4kwall/-/issues](https://gitlab.com/warlordsoftwares/4kwall/-/issues)
+- 🔒 **Privacy policy:** [privacy.html](https://warlordsoftwares.com/privacy-policy/)
 
 ---
 
