@@ -82,14 +82,19 @@
 		</screenshot>
 	</screenshots>
 	<url type="homepage">https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/</url>
-	<url type="vcs-browser">https://gitlab.com/warlordsoftwares/4kwall</url>
-	<url type="bugtracker">https://gitlab.com/warlordsoftwares/4kwall/-/issues</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/4KWALL</url>
+	<url type="bugtracker">https://github.com/rishabh3354/4KWALL/issues</url>
 	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
 	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
 	<update_contact>contact@warlordsoftwares.com</update_contact>
 	<launchable type="desktop-id">com.warlordsoftwares.wallpaper-app-4kwall.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<releases>
+		<release version="2026.9.5" date="2026-9-5">
+			<description>
+				<p>Wallpaper not applying for some distros - fixed</p>
+			</description>
+		</release>
 		<release version="2026.8.19" date="2026-08-19">
 			<description>
 				<p>1. Explore page is much faster and smoother: scrolling no longer jumps, flickers or stutters.</p>
